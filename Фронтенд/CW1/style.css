@@ -1,0 +1,33 @@
+body{
+background-color: beige;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1512px;
+    margin: 0 auto;
+}
+
+/* -----Header------- */
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 28px 130px  29px 198px;
+}
+
+.nav a{
+margin-right: 68px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #222222;
+}
