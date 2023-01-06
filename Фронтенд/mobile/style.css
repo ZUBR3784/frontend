@@ -1,0 +1,351 @@
+@font-face {
+    font-family: 'Trebuchet MS', sans-serif;
+    src: url(fonts/trebuchetms.ttf);
+}
+body{
+   font-family: 'Trebuchet MS', sans-serif; 
+   color: #FFFFFF;
+}
+.Main-container{
+    width: 1440px;
+}
+
+
+
+    /* First-part */
+
+.First-part-main{
+    height: 696px;
+    background-color: #FF8659;
+    display: flex;
+    justify-content: center;
+}
+.First-part-headline{
+    width: 471px;
+    height: 130px;
+    margin: 216px auto 21px auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 65px;
+    letter-spacing: 0.05em;
+}
+.First-part-text{
+    width: 445px;
+    height: 50px;
+    margin:  0 auto 279px auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+}
+.First-part-foto-iphone{
+    width: 225.95px;
+    height: 458px;
+    background: url("media/main.png");
+    background-size:cover ;
+    margin: 125.28px 58.39px;
+    position: relative;
+}
+.First-part-foto-iphone::after{
+    content: '';
+    display: block;
+    width: 200px;
+    height: 430px;
+    background:none;
+    position: absolute;
+    top: 8px;
+    left: 0;
+    right: 0;
+    margin: 0px auto;
+    box-shadow: 20px 20px 20px 6px #00000093;
+}
+.First-part-foto-screen{
+    padding-left: 13px;
+    padding-top: 20px;
+    width: 200.59px;
+    height: 417.44px;
+}
+
+
+
+/* Second-part */
+
+.Second-part-main{
+    background-color:#384450 ;
+    height: 275px;
+    display: flex;
+    justify-content: center;
+}
+.Second-part-content{
+    width: 891px;
+    height: 135px;
+    margin: 70px 271px 70px 278px ;
+    display: flex;
+    justify-content: space-between;
+}
+.Second-part-containers{
+    width: 201px;
+    height: 135px;
+}
+.Second-part-stars{
+    display: flex;
+    justify-content: center;
+    color: #FFCE31;
+}
+
+.Second-part-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;  
+}
+.Second-part-text2{
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+
+
+
+
+/* Third part */
+
+
+
+/* Third-part-buttons-section */
+
+.Third-part-main{
+    background-color: #45515D;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.Third-part-buttons{
+    width: 1440px;
+    height: 168px;
+    display: flex;
+    justify-content: center;
+}
+.Third-part-buttons-section{
+    margin-top: 79px;
+    width: 502px;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.Third-part-button{
+    width: 163px;
+    height: 42px;
+    border-radius: 20px;
+    border-color: #FFFFFF;
+    background-color: #45515D;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: .3s all;
+    cursor: pointer;
+}
+.Third-part-button:hover{
+    background: #FF8659;
+    border: none;
+
+}
+.Third-part-button-star{
+    width: 31px;
+    height: 31px;
+    color: #FFFFFF;
+}
+.Third-part-button-text{
+    width: 109px;
+    height: 22px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+
+/* Third-part-left-section */
+
+.Third-part-left-section{
+    width: 561px;
+    height: 633px;
+    margin-top: 66px;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.Third-part-left-sections{
+    width: 245px;
+    height: 153.5px;
+}
+.Third-part-left-sections-star{
+    display: flex;
+    justify-content: end;
+}
+h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    margin-bottom: 5px;
+}
+.Third-part-left-section-text{
+    width: 244px;
+    height: 55px;
+    margin-top: 3px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: right;
+    letter-spacing: 0.05em;
+}
+
+
+/* Third-part-center-section */
+
+.Third-part-center-section{
+    margin: 47px 0px 64px 0;
+    width: 279.6px;
+    height: 568.13px;
+}
+.Third-part-foto-iphone{
+    width: 225.95px;
+    height: 458px;
+    background: url("media/main.png");
+    background-size:cover ;
+    position: relative;  
+}
+.Third-part-foto-iphone::after{
+    content: '';
+    display: block;
+    width: 200px;
+    height: 430px;
+    background:none;
+    position: absolute;
+    top: 8px;
+    left: 0;
+    right: 0;
+    margin: 0px auto;
+    box-shadow: 20px 20px 20px 6px #00000093;
+}
+.Third-part-foto-screen{
+    padding-left: 13px;
+    padding-top: 20px;
+    width: 200.59px;
+    height: 417.44px;
+}
+
+
+/* Third-part-right-section */
+
+.Third-part-right-section{
+    width: 540px;
+    height: 633px;
+    margin-top: 66px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.Third-part-right-sections{
+    width: 245px;
+    height: 153.5px;
+}
+.Third-part-right-sections-star{
+    display: flex;
+    justify-content: start;
+}
+.Third-part-right-sections-h2{
+    text-align: left;
+}
+.Third-part-right-section-text{
+    width: 244px;
+    height: 55px;
+    margin-top: 3px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+}
+
+
+
+
+/* Last-part */
+
+.Last-part-main{
+    height: 633px;
+    background-color: #FF8659;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Last-part-main-h2{
+    width: 311px;
+    height: 47px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin: 73px auto 22px auto;
+}
+.Last-part-main-p{
+    width: 557px;
+    height: 42px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin: 0 auto 37px auto;
+}
+.Last-part-container{
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Last-part-containers{
+    width: 487px;
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.Last-part-containers-icon{
+    width: 41px;
+    height: 72px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Last-part-containers-text{
+    width: 437px;
+    height: 72px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.4223px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+}
+
