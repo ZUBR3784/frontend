@@ -1,0 +1,43 @@
+.show{
+   color: white;
+}
+
+
+
+
+/* .keyboard{
+    color: white;
+    background: black;
+    width: 550px;
+    height: 200px;
+}
+.keyboard-first-row{
+    height: 50px;
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.keyboard-second-row{
+    margin-bottom: 4px; 
+    display: flex;
+    justify-content: space-evenly
+}
+
+.keyboard-third-row{
+    height: 50px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between; 
+    padding-left: 30px;
+}
+button{
+    height: 50px;
+    width: 50px;
+    font-size: large;
+    font-weight: 700;
+}
+
+.delete{
+    width: 100px; 
+}  */
