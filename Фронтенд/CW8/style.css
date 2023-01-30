@@ -1,0 +1,22 @@
+/* p{
+    color: green;
+    background-color: red;
+}
+.active{
+    color: aqua;
+    background-color: beige;
+}
+
+.pasive{
+    color: green;
+    background-color: red;
+} */
+
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
