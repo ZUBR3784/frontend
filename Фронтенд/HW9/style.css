@@ -1,0 +1,48 @@
+
+body {
+    background-color: rgb(12, 12, 33);
+    color: white;
+  }
+  
+  .content {
+    display: grid;
+    grid-template: repeat(3, 300px) / repeat(3, 300px);
+  }
+  
+  .image {
+    grid-area: 1/1/4/3;
+  }
+  .image img {
+    width: 100%;
+    height: 100%;
+  }
+  .text {
+    margin-left: 30%;
+    background-color: gray;
+    grid-area: 2/2/3/4;
+  }
+
+  h2{
+    font-family: 'Itim', cursive;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 900;
+    color: brown;
+    margin-left: 50%;
+    transform: translate(-90%);
+  }
+  p{
+    font-family: 'Sassy Frass', cursive;
+    font-size: medium;
+    margin-left: 50%;
+    transform: translate(-90%);
+
+  }
+  button{
+    font-family: 'Sassy Frass', cursive;
+    margin-left: 5%;
+    height:20% ;
+    width: 50%;
+    border-radius: 30%;
+    box-shadow: 3px 3px 5px 3px rgb(12, 12, 33);
+  }
