@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    font-style: normal;
+    
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1340px;
+    max-height: 910px;
+  }
+
+
+header{
+    max-width: 1340px;
+}
+
+form{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+input{
+    padding-left: 2%;
+    left: 0px;
+    top: 0px;
+    border: 1px solid #D6D6D6;
+    border-radius: 4px;
+    color: #1A1A1A;
+}
+
+
+
+.input-names,
+.input-surnames,
+.input-country{
+    width: 433px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+    border: 1px solid #D6D6D6;
+    border-radius: 4px;
+
+}
+
+.input-streets{
+    width: 212px;
+    height: 48px;
+    
+    
+}
+.input-nrsHome,
+.input-nrAparatments{
+    width: 100px;
+    height: 48px;
+
+    
+}
+
+.input-postcode{
+    width: 138px;
+    height: 48px;
+    
+}
+.input-sity{
+    width: 286px;
+    height: 48px;
+}
+.div-countries{
+    position: relative;
+    width: 433px;
+}
+.input-div-countries {
+    box-sizing: border-box;
+    height: 48px;
+    width: 90%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.select-div-countries {
+   
+    width: 433px;
+    height: 48px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 1px solid #D6D6D6;
+    border-radius: 4px;
+}
+.submit{
+   
+    
+}
+.submit-btn{
+    padding: 16px;
+    width: 70px;
+    height: 48px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 20px;
+    background: #03DAC6;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+
+
+/* main part */
+
+.wrapper2{
+    display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+}  
+
+.arrow {
+    position: relative;
+    padding: 0;
+    background: #ddd;
+    border-radius: 15px;
+    border: 1px solid gray;
+    font-size: 24px;
+    line-height: 24px;
+    color: #444;
+    display: block;
+  }
+  
+.arrow:hover {
+    background: #ccc;
+    cursor: pointer;
+  }
+
+.prev {
+    width: 40px;
+    height: 40px;
+    top: 252px; 
+    left: 5px;
+    background: #F5F5F5;
+  }
+  
+.next {
+    width: 40px;
+    height: 40px;
+    left: 450px;
+    top: 250px;
+    background: #F5F5F5;
+  }
+.carousel {
+    position: relative;
+    width: 1000px;
+    padding: 10px 40px;
+    border: none;
+    background: #FFFFFF
+}
+  
+  .carousel img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    background-color:F5F5F5 ;
+  }
+
+.gallery {
+    width: 1360px;
+    overflow: hidden;
+  }
+
+.gallery ul {
+    height: 504px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+  }
+  
+.gallery li {
+    display: inline-block;
+    width: 320px;
+    height: 504px;
+    left: 0px;
+    top: 0px;
+    margin-left: 20px;
+    background: #FFFFFF;
+    border: none
+  }
+
+.image{
+   background-color: #F5F5F5;
+  }
+
+.gallery-items-newPrice,.gallery-items-oldPrice,.gallery-items-p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    
+}
+.gallery-items-newPrice{
+    color: #E2071C;
+}
+.gallery-items-oldPrice{
+    color: #757575;
+    text-decoration-line: line-through; 
+    margin-top: 10px;
+}
+.gallery-items-p{
+    color: #1A1A1A;
+    margin-top: 10px;
+}
+.basket{
+    width: 300px;
+    height: 48px;
+    left: 10px;
+    top: 436px;
+    background: #000000;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
