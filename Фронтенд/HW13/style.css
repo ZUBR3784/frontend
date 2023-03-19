@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    
+    
+    background-color: aqua;
+    text-align: center;
+    display: grid;
+    gap: 20px;
+}
+
+.last,.next{
+    margin-left: 50%;
+    transform: translate(-50%);
+    max-width: 500px;
+    background-color: brown;
+}
