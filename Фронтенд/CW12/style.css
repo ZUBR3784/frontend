@@ -1,0 +1,42 @@
+/* media-queries */
+/* all, print, screen, speech */
+
+/* @media screen and () and () */
+
+div {
+    height: 400px;
+    border: 1px solid red;
+  }
+  
+  /* >1240px - green */
+  
+  @media screen and (min-width: 1240px) {
+    div {
+      background-color: green;
+    }
+  }
+  
+  /* 840px - 1240px - blue */
+  
+  @media screen and (min-width: 840px) and (max-width: 1240px) {
+    div {
+      background-color: blue;
+    }
+  }
+  
+  /* 640px - 840px - orange */
+  
+  @media screen and (min-width: 640px) and (max-width: 840px) {
+    div {
+      background-color: orange;
+    }
+  }
+  
+  /* <640px - black */
+  
+  @media screen and (max-width: 640px) {
+    div {
+      background-color: black;
+    }
+  }
+  
