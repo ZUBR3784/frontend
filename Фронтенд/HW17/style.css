@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .container{
+    height: 500px;
+    width: 500px;
+    position: relative;
+    overflow: hidden;
+
+} */
+
+/* .containers{
+    display: grid;
+    grid-auto-flow: column;
+    position: absolute;
+    left: 0;
+    transition: left 0.5s;
+    gap: 10px;
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+    color: rgb(214, 208, 31);
+} */
+
+
+
+
+
+
+
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+}
+.container{
+    max-width: 1200px;
+    margin: 30px auto;
+    background-color: gray;
+    padding: 30px;
+}
+
+
+
+.containers{
+    width: 300px;
+    height: 256px;
+    
+}
+
+.slider{
+    width: 300px;/*задаёт окно вид картин= сумма ширины карт */
+    height: 256px;
+    border: 2px solid black;
+    margin: 30px auto;
+    overflow: hidden;/*откл видимость карт за пред род блока*/
+
+}
+.slider-line{
+    height: 300px; 
+    width: 1800px; /* slider.width*(кол-во картинок) */
+    background-color: orange;
+    display: flex;
+    position: relative;
+    left: 0;/*начальная позиция*/
+    transition: all ease 1s;
+}

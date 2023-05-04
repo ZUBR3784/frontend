@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.container{
+    height: 500px;
+    width: 500px;
+    position: relative;
+    overflow: hidden;/*скрывает всё что за контейнером*/
+
+}
+
+.pictures{
+    display: grid;
+    grid-auto-flow: column;
+    position: absolute;
+    left: 0;
+    transition: left 0.5s;
+}
+
+.picture{
+    height: 500px;
+    width: 500px;
+    background-size: cover;
+    background-position: center;
+}
+.btns{
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 30px;
+
+}
+
+.btns button{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: transparent;/*делает фон прозрачным*/
+    border: 3px solid black;
+}
+
+.btns .btnActive{
+    background-color: yellow;
+}
